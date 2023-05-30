@@ -1,10 +1,8 @@
-h2{
-    color:brown
-}
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid rgb(15, 15, 15);
     border-collapse: collapse;
+    border-spacing: 30px;
   }
   th, td {
-    background-color: rgba(113, 121, 120, 0.432);
+    background-color: #eebbd9;
   }
