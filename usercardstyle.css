@@ -1,31 +1,46 @@
 .container{
-    margin-left: 10px;
+    margin-left: 80px;
 }
-
-
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 30%;
-    padding:10px 0px 10px 10px ;
-    transition:0.7s;
-    transition:1s;
-
+    width: 29%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.7s;
 }
-
 .card:hover{
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
 }
 .name{
     font-size: 40px;
+    text-align: center;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-.des{
+.designation
+{
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+.toggle{
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #04AA6D;
+    border-radius: 7px;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.toggle:hover {
+    background-color: black;
+    color: white;
+  }
