@@ -5,7 +5,7 @@
 }
 body
 {
-    background-image: url("https://www.wallpaperflare.com/calm-body-of-water-backlit-chiemsee-dawn-desktop-backgrounds-wallpaper-aovgs");
+    background-image: url("https://www.wallpaperflare.com/neon-4k-hd-best-for-desktop-wallpaper-tzqva");
 }
 .container-fluid
 {
@@ -24,13 +24,13 @@ body
 {
     height: 4rem;
     width: 20rem;
-    background: rgb(33, 33, 33);
+    background: #212121;
     font-weight: bold;
     font-size: 1rem;
     padding: 10px;
     border: none;
     background-color: transparent;
-    border: 2px solid #757070;
+    border: 2px solid #c2c2c2;
     border-radius: 2px;
     margin-right:4px ;
 }
@@ -38,7 +38,7 @@ body
 {
     height: 3rem;
     width: 6rem;
-    background: #f16507;
+    background: #0a67ca;
     font-weight: bold;
     color: white;
     font-size: 1rem;
@@ -50,7 +50,7 @@ body
 {
     text-align: center;
     width: 400px;
-    color: #d84267;
+    color: #16a864;
 }
 .wrapper 
 {
@@ -64,7 +64,7 @@ body
 {
     padding: 5px 0;
     text-align: center;
-    background: #682d8f7e;
+    background: #0548b5;
     color: white;
     font-family: sans-serif;
 }
@@ -73,16 +73,16 @@ body
     margin:20px 50px;
     margin-right: 20px;
     text-align: left;
-    color: #26497e;
+    color: #04214c;
     font-size:23px;
 }
 .wrapper h2 span
 {
     font-size: 26px;
-    color: #565185;
+    color: #9beefb;
 }
 .wrapper p span
 {
-    color: #148c9c52;
+    color: #f4780d;
     font-size: 25px;
 }

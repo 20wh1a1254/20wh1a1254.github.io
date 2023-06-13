@@ -2,7 +2,7 @@ var inputval = document.querySelector('#cityinput')
 var btn = document.querySelector('#add');
 var city = document.querySelector('#cityoutput')
 var descrip = document.querySelector('#description')
-var temperature = document.querySelector('#temperature')
+var temp = document.querySelector('#temp')
 var wind = document.querySelector('#wind')
 apik = "3045dd712ffe6e702e3245525ac7fa38"
 function convertion(val)
@@ -20,9 +20,9 @@ btn.addEventListener('click', function()
     var tempature = data['main']['temp']
     var wndspd = data['wind']['speed']
     city.innerHTML=`Weather of <span>${nameval}<span>`
-    temperature.innerHTML = `Temperature: <span>${ convertion(tempature)} C</span>`
+    temp.innerHTML = `Temperature: <span>${ convertion(tempature)} C</span>`
     description.innerHTML = `Sky Conditions: <span>${descrip}<span>`
     wind.innerHTML = `Wind Speed: <span>${wndspd} km/h<span>`
   })
-  .catch(err => alert('Enter Correct City Name'))
+  .catch(err => alert('Enter Correct Name'))
 })
